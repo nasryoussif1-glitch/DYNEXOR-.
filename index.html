@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080d1d">
+  <title>DYNEXOR | حلول رقمية بطموح أكبر</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home"><span class="brand-mark">D</span><span>DYNEXOR</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="فتح القائمة">☰</button>
+    <nav id="navLinks">
+      <a href="#home">الرئيسية</a><a href="#services">خدماتنا</a><a href="#about">من نحن</a><a href="#contact">تواصل معنا</a>
+    </nav>
+    <button class="outline-btn admin-open">لوحة الإدارة</button>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <span class="eyebrow"><i></i> مساحة جديدة للإبداع الرقمي</span>
+        <h1>حوّل أفكارك إلى<br><span class="gradient-text">تجارب رقمية</span> مميزة.</h1>
+        <p>DYNEXOR تجمع بين التصميم العصري والتقنيات الذكية لصناعة حضور رقمي يلفت الانتباه ويترك أثرًا.</p>
+        <div class="hero-actions"><a class="primary-btn" href="#contact">ابدأ مشروعك <span>←</span></a><a class="text-link" href="#services">اكتشف خدماتنا ↓</a></div>
+        <div class="mini-stats"><div><b>01</b><small>فكرة مبتكرة</small></div><div><b>02</b><small>تصميم متناسق</small></div><div><b>03</b><small>تجربة مرنة</small></div></div>
+      </div>
+      <div class="hero-art" aria-label="تصميم تقني تجريدي">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="core-card"><div class="core-symbol">D<span>.</span></div><strong>DYNEXOR</strong><small>DESIGN THE NEXT</small><div class="core-bars"><i></i><i></i><i></i><i></i><i></i></div></div>
+        <span class="float-tag tag-one">CREATIVE</span><span class="float-tag tag-two">DIGITAL / 2026</span>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="section-heading"><span class="eyebrow">ماذا نقدم؟</span><h2>كل ما تحتاجه <span class="gradient-text">لتتقدم</span></h2><p>حلول عملية بواجهة أنيقة وتجربة استخدام سهلة.</p></div>
+      <div class="service-grid">
+        <article class="service-card"><div class="service-icon">✦</div><h3>تصميم المواقع</h3><p>مواقع عصرية وسريعة ومتجاوبة مع جميع أحجام الشاشات.</p><span>01 / WEB DESIGN</span></article>
+        <article class="service-card"><div class="service-icon">⌘</div><h3>تجربة المستخدم</h3><p>تنظيم واضح للمحتوى وتفاصيل تجعل التصفح أكثر سهولة.</p><span>02 / UX & UI</span></article>
+        <article class="service-card"><div class="service-icon">◈</div><h3>حلول رقمية</h3><p>أفكار وأدوات رقمية تساعد مشروعك على النمو والتطور.</p><span>03 / DIGITAL</span></article>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="about-box"><div class="about-orb">DX</div><div><span class="eyebrow">عن DYNEXOR</span><h2>المستقبل يبدأ <span class="gradient-text">بفكرة.</span></h2><p>نؤمن أن التفاصيل الصغيرة تصنع فرقًا كبيرًا. لذلك نركز على الجمع بين الشكل الجذاب، الأداء الجيد، وسهولة الاستخدام في كل تجربة رقمية.</p><a class="text-link" href="#contact">خلينا نبدأ سوا ←</a></div></div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="section-heading"><span class="eyebrow">تواصل معنا</span><h2>احكيلنا عن <span class="gradient-text">مشروعك</span></h2><p>اكتب تفاصيل بسيطة وسنكون سعداء بالتواصل معك.</p></div>
+      <form class="contact-form" id="contactForm">
+        <label>الاسم<input name="name" required placeholder="اكتب اسمك"></label>
+        <label>البريد الإلكتروني<input name="email" type="email" required placeholder="name@example.com"></label>
+        <label class="full">تفاصيل المشروع<textarea name="message" rows="4" required placeholder="عايز تنفذ إيه؟"></textarea></label>
+        <button class="primary-btn" type="submit">إرسال الطلب <span>←</span></button>
+        <p class="form-note" id="formNote">سيتم حفظ الطلب على هذا الجهاز في النسخة التجريبية.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="#home"><span class="brand-mark">D</span><span>DYNEXOR</span></a><p>© 2026 DYNEXOR. جميع الحقوق محفوظة.</p><a href="#home">العودة للأعلى ↑</a></footer>
+
+  <div class="modal" id="loginModal" aria-hidden="true">
+    <div class="login-box"><button class="close-modal" data-close>×</button><div class="brand-mark large">D</div><span class="eyebrow">ADMIN ACCESS</span><h2>تسجيل دخول الإدارة</h2><p>أدخل كلمة المرور للمتابعة إلى لوحة التحكم.</p>
+      <form id="loginForm"><input id="adminPassword" type="password" placeholder="كلمة المرور" autocomplete="current-password" required><button class="primary-btn" type="submit">تسجيل الدخول <span>←</span></button><small id="loginError" class="error"></small></form>
+    </div>
+  </div>
+
+  <div class="admin-panel" id="adminPanel" aria-hidden="true">
+    <aside class="admin-sidebar"><a class="brand" href="#"><span class="brand-mark">D</span><span>DYNEXOR</span></a><p>لوحة التحكم</p><button class="side-link active">▦ نظرة عامة</button><button class="side-link" id="showRequests">✉ طلبات التواصل <b id="requestBadge">0</b></button><button class="side-link" id="showSettings">⚙ إعدادات سريعة</button><button class="side-link logout" id="logoutBtn">↪ تسجيل الخروج</button></aside>
+    <section class="admin-content"><div class="admin-head"><div><span class="eyebrow">ADMIN DASHBOARD</span><h1>أهلاً بك في لوحة الإدارة</h1></div><button class="outline-btn" id="closeAdmin">العودة للموقع</button></div>
+      <div class="dashboard-cards"><div class="dash-card"><small>إجمالي الطلبات</small><strong id="totalRequests">0</strong><span>طلبات محفوظة محليًا</span></div><div class="dash-card"><small>حالة الموقع</small><strong class="online">نشط</strong><span>الواجهة تعمل بشكل طبيعي</span></div><div class="dash-card"><small>اسم المشروع</small><strong>DYNEXOR</strong><span>لوحة الإدارة التجريبية</span></div></div>
+      <div class="admin-section" id="requestsSection"><div class="admin-section-head"><div><h2>طلبات التواصل</h2><p>الطلبات التي تم إرسالها من نموذج الموقع.</p></div><button class="outline-btn danger" id="clearRequests">مسح الطلبات</button></div><div id="requestsList" class="requests-list"><div class="empty-state">لا توجد طلبات حتى الآن.</div></div></div>
+      <div class="admin-section settings-section" id="settingsSection"><h2>إعدادات سريعة</h2><p>يمكنك تغيير كلمة مرور لوحة الإدارة من ملف <b>script.js</b> قبل رفع الموقع.</p><div class="notice">تنبيه: تسجيل الدخول هنا تجريبي ويعمل داخل المتصفح. لا تستخدمه لحماية بيانات حقيقية قبل ربط الموقع بخادم وقاعدة بيانات ونظام مصادقة آمن.</div></div>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
